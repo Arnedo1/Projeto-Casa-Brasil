@@ -108,3 +108,21 @@ input::-webkit-inner-spin-button {
 input:focus {
     outline: none;
 }
+@media (max-width:780px) {
+    input {
+        width: 150px;
+    }
+}
+@media (max-width:630px) {
+    input {
+        width: 80px;
+    }
+}
+@media (max-width:440px) {
+    input {
+        width: 50px;
+    }
+    .min-input {
+        margin-left: 20px;
+    }
+}
